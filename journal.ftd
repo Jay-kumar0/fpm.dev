@@ -130,12 +130,12 @@ implements: fpm.dev/blog
 
 -- ft.markdown:
 
-Using `implements` does three things: 1. ensures `fifthtry.github.io/Jupiter-theme`
+Using `implements` does three things: 1. ensures `jay-kumar0.github.io/Jupiter-theme`
 has modules and compatible symbols as defined in `fpm.dev/blog`, 2. any attempt
 to access any extra modules are symbols, that are not part of `fpm.dev/blog`
 lead to error, and 3. makes `fpm.dev/blog` an alias for
-`fifthtry.github.io/Jupiter-theme`, so if any document has imported
-`fpm.dev/blog`, they will be getting `fifthtry.github.io/Jupiter-theme` instead.
+`jay-kumar0.github.io/Jupiter-theme`, so if any document has imported
+`fpm.dev/blog`, they will be getting `jay-kumar0.github.io/Jupiter-theme` instead.
 
 We can use `implements` more than once on a dependency.
 
@@ -162,7 +162,7 @@ Say with that definition of `main`, say this:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 
 
@@ -173,7 +173,7 @@ Is equivalent to:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 blog: j.blog
 post: j.post
@@ -199,7 +199,7 @@ In this case we can go on and define things explicitly:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 
 \-- fpm.dependency: fifthtry.github.io/Some-Book-theme as j
@@ -215,7 +215,7 @@ two dependencie without `author: j.author` line, eg:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 
 \-- fpm.dependency: fifthtry.github.io/Some-Book-theme as j
@@ -229,7 +229,7 @@ will have to explicitly map the author to some other name for one of the package
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 
 \-- fpm.dependency: fifthtry.github.io/Some-Book-theme as k
@@ -247,7 +247,7 @@ We can even support this syntax:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 
 \-- fpm.dependency: fifthtry.GitHub.io/Some-Book-theme as k
@@ -605,7 +605,7 @@ What if we did this:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 ft: j.ft
 
@@ -731,7 +731,7 @@ So lets review this:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 a: j.article
 
@@ -747,7 +747,7 @@ do:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 
 \-- fpm.dependency: fifthtry.github.io/Some-Other-theme as k
@@ -760,7 +760,7 @@ And we will make the following an error:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 a: j.article
 
