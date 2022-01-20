@@ -1,4 +1,4 @@
--- import: fifthtry.github.io/Jupiter-theme as ft
+-- import: jay-kumar0.github.io/Jupiter-theme as ft
 -- import: config
 
 -- ft.doc-page:
@@ -101,7 +101,7 @@ So yesterday we settled with this as solution for our prelude problem:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 ft: j.ft
 
@@ -125,7 +125,7 @@ proposed `implements` syntax:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 implements: fpm.dev/blog
 
 -- ft.markdown:
