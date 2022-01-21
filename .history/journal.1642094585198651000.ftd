@@ -1,4 +1,4 @@
--- import: fifthtry.github.io/Jupiter-theme as ft
+-- import: jay-kumar0.github.io/Jupiter-theme as ft
 -- import: config
 
 -- ft.doc-page:
@@ -237,7 +237,7 @@ What if we did this:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 ft: j.ft
 
@@ -363,7 +363,7 @@ So lets review this:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 a: j.article
 
@@ -379,7 +379,7 @@ do:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 
 \-- fpm.dependency: fifthtry.github.io/Some-Other-theme as k
@@ -392,7 +392,7 @@ And we will make the following an error:
 -- ft.code:
 lang: ftd
 
-\-- fpm.dependency: fifthtry.github.io/Jupiter-theme as j
+\-- fpm.dependency: jay-kumar0.github.io/Jupiter-theme as j
 book: j.book
 a: j.article
 
